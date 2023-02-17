@@ -7,7 +7,7 @@ export default function App() {
     return (
         <div>
             <main>
-                <img className="portrait" src="portrait.png" />
+                <img className="portrait" src="portrait.jpg" />
                 <div className="info">
                     <section className="titles">
                         <h1>Brock Penner</h1>
