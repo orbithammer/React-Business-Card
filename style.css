@@ -52,19 +52,19 @@ main h4 {
     font-weight: 400;
 }
 
-.job-title {
+.jobTitle {
     color: #F3BF99;
     margin: 0.375rem 0 0.5625rem;
 }
 
-.contact-info {
+.contactInfo {
     display: flex;
     justify-content: center;
     cursor: pointer;
     gap: 0.5rem;
 }
 
-.contact-info a {
+.contactInfo a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,18 +75,18 @@ main h4 {
     width: 7.1875rem;
 }
 
-.contact-info a:first-of-type {
+.contactInfo a:first-of-type {
     background: #fff;
     border: 1px solid #D1D5DB;
     color: #374151;
 }
 
-.contact-info a:last-of-type {
+.contactInfo a:last-of-type {
     background: #5093E2;
     color: #fff;
 }
 
-.contact-info a img {
+.contactInfo a img {
     height: 1rem;
     margin-right: 0.5rem;
     border-radius: 4px;
