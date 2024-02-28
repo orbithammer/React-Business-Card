@@ -14,12 +14,12 @@ export default function App() {
                 <div className="info">
                     <section className="titles">
                         <h1>Brock Penner</h1>
-                        <h4 className="jobTitle">Frontend Developer</h4>
-                        <h4><a onClick={()=>{window.open("https://jovial-sunshine-78a3f0.netlify.app/index.html", "_blank")}}>Click here for portfolio.</a></h4>
+                        <h4 className="job-title">Frontend Developer</h4>
+                        <h4><a className="portfolio-link" onClick={()=>{window.open("https://brocksportfolio.netlify.app/", "_blank")}}>Click here for portfolio.</a></h4>
                     </section>
-                    <section className="contactInfo">
+                    <section className="contact-info">
                         <a onClick={()=>{window.open("mailto: brockpenner@protonmail.com", "_blank")}}><img href="" src={Envelope} />Email</a>
-                        <a onClick={()=>{window.open("https://www.linkedin.com/in/brock-penner-97322062/", "_blank")}}><img src={Linkedin} className="linkedinIcon"/>LinkedIn</a>
+                        <a onClick={()=>{window.open("https://www.linkedin.com/in/brock-penner-97322062/", "_blank")}}><img src={Linkedin} className="linkedin-icon"/>LinkedIn</a>
                     </section>
                     <section className="details">
                         <h3>About</h3>

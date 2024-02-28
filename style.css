@@ -32,6 +32,10 @@ main {
     cursor: pointer;
 }
 
+.portfolio-link:hover {
+    text-decoration: underline;
+}
+
 .portrait {
     border-radius: 10px 10px 0px 0px;
     width: 19.8125rem;
@@ -52,19 +56,19 @@ main h4 {
     font-weight: 400;
 }
 
-.jobTitle {
+.job-title {
     color: #F3BF99;
     margin: 0.375rem 0 0.5625rem;
 }
 
-.contactInfo {
+.contact-info {
     display: flex;
     justify-content: center;
     cursor: pointer;
     gap: 0.5rem;
 }
 
-.contactInfo a {
+.contact-info a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,18 +79,18 @@ main h4 {
     width: 7.1875rem;
 }
 
-.contactInfo a:first-of-type {
+.contact-info a:first-of-type {
     background: #fff;
     border: 1px solid #D1D5DB;
     color: #374151;
 }
 
-.contactInfo a:last-of-type {
+.contact-info a:last-of-type {
     background: #5093E2;
     color: #fff;
 }
 
-.contactInfo a img {
+.contact-info a img {
     height: 1rem;
     margin-right: 0.5rem;
     border-radius: 4px;
